@@ -1,4 +1,4 @@
-public class WW2 {
+public class OverloadMethodeOfJavaExample {
     // Basic Germany method
     public void Germany() {
         System.out.println("Das carrier of Axis team.");
@@ -15,7 +15,7 @@ public class WW2 {
     }
 
     public static void main(String[] args) {
-        WW2 war = new WW2();
+       OverloadMethodeOfJavaExample war = new OverloadMethodeOfJavaExample();
         war.Germany();  // Calls the first method
         war.Germany("Battle of Moscow"); // Calls the second method
         war.Germany("got cooked", 1945); // Calls the third method
